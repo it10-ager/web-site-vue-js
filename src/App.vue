@@ -24,16 +24,19 @@
 						и все это бесплатно. В окружении только доброжелательные, невероятно умные и
 						весёлые коллеги-друзья. Что же здесь правда?
 					</p>
-				</div>
-				<div class="google-btn">
-					<button>Читать далее</button>
+					<div class="google-btn">
+						<button>Читать далее</button>
+					</div>
 				</div>
 			</div>
 		</section>
-
-		<section id="second-section">
+		
+		<div class="last-published">
 			<p>Последние опубликованные</p>
 			<span class="blue-line-half"></span>
+		</div>
+		
+		<section id="second-section">
 			<!--------------------------------------------1-------------------------------------------->
 			<div class="news-list">
 				<div class="news-img">
@@ -199,9 +202,12 @@
 			</div>
 		</section>
 
-		<footer>
+		<div class="info">
 			<p>Информация</p>
 			<span class="blue-line-half"></span>
+		</div>
+
+		<footer>
 			<!--------------------------------------------1-------------------------------------------->
 			<div>
 				<div class="footer-img">

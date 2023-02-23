@@ -80,25 +80,27 @@
 					@extend %nthFont;
 				}
 
-				>p:last-child{
+				>p:last-of-type{
 					margin-top: 15px;
 					@extend %nthFont;
 				}
-			}
 
-			>.google-btn >button{
-				@extend %allButtons;
-				width: 158px!important;
-
-				&:hover{
-					background-color: rgb(237, 244, 255);
-					transition: all 400ms ease;
+				>.google-btn >button{
+					@extend %allButtons;
+					width: 158px!important;
+	
+					&:hover{
+						background-color: rgb(237, 244, 255);
+						transition: all 400ms ease;
+					}
 				}
 			}
 		}
 	}
 
-	#second-section{
+	>.last-published{
+		max-width: 100%;
+
 		>p:first-of-type{
 			font-size: 24px;
 			font-weight: bold;
@@ -110,7 +112,9 @@
 			@extend %blueLine;
 			margin-bottom: 30px;
 		}
+	}
 
+	#second-section{
 		>.news-list{
 			width: $main-width;
 			@extend %flexDisplay;
@@ -210,7 +214,7 @@
 		}
 	}
 
-	&>footer{
+	>.info{
 		>p:first-of-type{
 			font-size: 20px;
 			font-weight: bold;
@@ -223,7 +227,9 @@
 			max-width: 160px!important;
 			margin-bottom: 5px;
 		}
+	}
 
+	&>footer{
 		>div{
 			margin-top: 40px;
 
