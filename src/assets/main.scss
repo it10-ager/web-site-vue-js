@@ -1,0 +1,14 @@
+@import './variables.scss';
+
+body {
+	background-color: $main-color;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+	user-select: none;
+}
+
+.myclass{
+	background: green;
+}
