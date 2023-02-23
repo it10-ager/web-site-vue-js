@@ -1,9 +1,9 @@
 <template>
 	<div class="container">
+		<div class="menu-icon">
+			<img src="./img/menu icon.png" alt="menu icon">
+		</div>
 		<header>
-			<div>
-				<img src="./img/menu icon.png" class="menu-icon" alt="menu icon">
-			</div>
 			<span>СМИ портал</span>
 			<span class="blue-line"></span>
 		</header>
@@ -103,7 +103,7 @@
 			<!--------------------------------------------5-------------------------------------------->
 			<div class="news-list">
 				<div class="news-img">
-					<img src="./img/git.png" alt="photo-google">
+					<img src="./img/git.jpg" alt="photo-google">
 				</div>
 				<div class="news-txt">
 					<p>Изучение Git на реальных примерах</p>
@@ -135,6 +135,100 @@
 				</div>
 			</div>
 		</section>
+
+		<section id="third-section">
+			<!--------------------------------------------1-------------------------------------------->
+			<div class="another-news">
+				<div class="another-img">
+					<img src="./img/frontend.png" alt="photo-google">
+				</div>
+				<div class="another-txt">
+					<p>Front-end</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, id minima.
+					</p>
+				</div>
+				<div class="another-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------2-------------------------------------------->
+			<div class="another-news">
+				<div class="another-img">
+					<img src="./img/swift.jpg" alt="photo-google">
+				</div>
+				<div class="another-txt">
+					<p>Swift</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, id minima.
+					</p>
+				</div>
+				<div class="another-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------3-------------------------------------------->
+			<div class="another-news">
+				<div class="another-img">
+					<img src="./img/V1.jpg" alt="photo-google">
+				</div>
+				<div class="another-txt">
+					<p>Python</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, id minima.
+					</p>
+				</div>
+				<div class="another-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------4-------------------------------------------->
+			<div class="another-news">
+				<div class="another-img">
+					<img src="./img/angular.png" alt="photo-google">
+				</div>
+				<div class="another-txt">
+					<p>Angular</p>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, id minima.
+					</p>
+				</div>
+				<div class="another-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<p>Информация</p>
+			<span class="blue-line-half"></span>
+			<!--------------------------------------------1-------------------------------------------->
+			<div>
+				<div class="footer-img">
+					<img src="./img/multiple-users-silhouette icon.png" alt="user">
+				</div>
+				<div class="footer-txt">
+					<p>Множество клиентов</p>
+					<p>
+						Огромное количество клиентов выбирают нас, так как мы всегда
+						держим руку на пульсе всего
+					</p>
+				</div>
+			</div>
+			<!--------------------------------------------2-------------------------------------------->
+			<div>
+				<div class="footer-img">
+					<img src="./img/youtube icon.png" alt="yt">
+				</div>
+				<div class="footer-txt">
+					<p>Большая аудитория YouTube</p>
+					<p>
+						Большая фан база на площадке YouTube. Вы всегда сможете
+						найти ту информацию, которая сейчас у всех на слуху на нашем канале
+					</p>
+				</div>
+			</div>
+		</footer>
 	</div>
 </template>
 
@@ -148,6 +242,6 @@
 	};
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 	@import './assets/main.scss';
 </style>

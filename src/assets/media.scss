@@ -1,0 +1,62 @@
+@media screen and (min-width: 630px){
+	.container{
+		padding: 20px 40px!important;
+
+		>.menu-icon{
+			max-width: $main-width;
+			margin-bottom: 5px;
+			cursor: pointer;
+
+			>img{
+				position: relative;
+				left: -20px;
+				width: 24px;
+			}
+		}
+
+		#first-section{
+			>.dream-work{
+				>.google-img {
+					height: 400px!important;
+				}
+
+				>.google-btn >button{
+					margin-bottom: 40px;
+				}
+			}
+		}
+
+		#second-section{
+			margin-top: 50px!important;
+
+			>.blue-line-half{
+				max-width: 340px;
+			}
+
+			>.news-list{
+				>.news-img{
+					height: 200px!important;
+				}
+			}
+		}
+
+		#third-section{
+			>.another-news{
+				>.another-img{
+					height: 200px!important;
+				}
+			}
+		}
+
+		&>footer{
+			>div:first-of-type{
+				float: left;
+			}
+			
+			>div:last-of-type{
+				margin: 34px 0;
+				float: right;
+			}
+		}
+	}
+}
