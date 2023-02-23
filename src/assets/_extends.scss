@@ -1,0 +1,38 @@
+%flexDisplay{
+	display: flex;
+	flex-direction: column;
+}
+
+%allButtons{
+	height: 42px;
+	width: 95px;
+	border: 2px solid $main-color;
+	color: $main-color;
+	font-size: 12px;
+	text-transform: uppercase;
+	background-color: #fff;
+	border-radius: 5px;
+	margin-top: 50px;
+	font-family: sans-serif;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 400ms ease;
+}
+
+%nthFont{
+	font-size: 14px;
+	color: $nth-font-color;
+}
+
+%sections{
+	margin: 50px 0;
+	max-width: $main-width;
+	border-bottom: $border-bottom;
+}
+
+%blueLine{
+	display: block;
+	height: 3px;
+	max-width: $main-width;
+	background-color: $main-color;
+}

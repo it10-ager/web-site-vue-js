@@ -1,6 +1,140 @@
 <template>
 	<div class="container">
-		<h1>Привет</h1>
+		<header>
+			<div>
+				<img src="./img/menu icon.png" class="menu-icon" alt="menu icon">
+			</div>
+			<span>СМИ портал</span>
+			<span class="blue-line"></span>
+		</header>
+
+		<section id="first-section">
+			<div class="dream-work">
+				<div class="google-img">
+					<img src="./img/Google.jpg" alt="photo-google">
+				</div>
+				<div class="google-txt">
+					<p>Работа мечты компания Google</p>
+					<p>что из себя представляет работа в google?</p>
+					<p>
+						Для многих людей Google представляется большим зданием с 
+						прозрачными лоджиями и окнами от пола до потолка, которое усеянно
+						уютными и красивыми креслами/столами. От представления кафетерия в этом здании, 
+						мечты становтся еще красочнее, еда пестрит излишествами и деликатесами
+						и все это бесплатно. В окружении только доброжелательные, невероятно умные и
+						весёлые коллеги-друзья. Что же здесь правда?
+					</p>
+				</div>
+				<div class="google-btn">
+					<button>Читать далее</button>
+				</div>
+			</div>
+		</section>
+
+		<section id="second-section">
+			<p>Последние опубликованные</p>
+			<span class="blue-line-half"></span>
+			<!--------------------------------------------1-------------------------------------------->
+			<div class="news-list">
+				<div class="news-img">
+					<img src="./img/difficult-lang.jpeg" alt="photo-google">
+				</div>
+				<div class="news-txt">
+					<p>Какие языки программирования ненавидят больше и почему?</p>
+					<p>
+						Авторитетный веб-ресурс Stack Overflow решил заняться опросом в отношении
+						языков программирования. В этот раз в центре внимания нелюбимые языки.
+					</p>
+				</div>
+				<div class="news-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------2-------------------------------------------->
+			<div class="news-list">
+				<div class="news-img">
+					<img src="./img/camera.jpg" alt="photo-google">
+				</div>
+				<div class="news-txt">
+					<p>Надо ли заклеивать камеру на ноутбуке?</p>
+					<p>
+						Заклеивать камеру ноутбука - паранойя или эффективное средство защититься от хакеров?
+						Мы рассмотрим аспекты за и против и ответим на этот вездесущий вопрос.
+					</p>
+				</div>
+				<div class="news-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------3-------------------------------------------->
+			<div class="news-list">
+				<div class="news-img">
+					<img src="./img/future.jpg" alt="photo-google">
+				</div>
+				<div class="news-txt">
+					<p>5 будущих профессий для IT специалистов</p>
+					<p>
+						Профессии постоянно пополняются и IT сфера вовсе не исключение. 
+						Мы подготовили список из 5 возможнных будущих профессий, к которым можно
+						подготовиться уже сейчас.
+					</p>
+				</div>
+				<div class="news-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------4-------------------------------------------->
+			<div class="news-list">
+				<div class="news-img">
+					<img src="./img/python.jpg" alt="photo-google">
+				</div>
+				<div class="news-txt">
+					<p>ИИ на Python для распознавания голоса</p>
+					<p>
+						На Python можно строить как простые программы, так и сложные 
+						ИИ системы. В данной статье мы покажем как реализовать распознавание
+						голоса и выполнение различных команд.
+					</p>
+				</div>
+				<div class="news-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------5-------------------------------------------->
+			<div class="news-list">
+				<div class="news-img">
+					<img src="./img/git.png" alt="photo-google">
+				</div>
+				<div class="news-txt">
+					<p>Изучение Git на реальных примерах</p>
+					<p>
+						Git - это очень полезная система управления версиями, которая позволяет
+						разработчикам эффективнее работать вместе. В статье вкратце на примерах,
+						вы изучите основные моменты Git.
+					</p>
+				</div>
+				<div class="news-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+			<!--------------------------------------------6-------------------------------------------->
+			<div class="news-list">
+				<div class="news-img">
+					<img src="./img/javascript.jpg" alt="photo-google">
+				</div>
+				<div class="news-txt">
+					<p>Почему JavaScript очень крутой язык программирования?</p>
+					<p>
+						Язык JavaScript за последние года стал мега популярным и завоевал 
+						огромное доверие среди разработчиков. Почему он так крут?
+						Узнаем в этой статье.
+					</p>
+				</div>
+				<div class="news-btn">
+					<button>Далее</button>
+				</div>
+			</div>
+		</section>
 	</div>
 </template>
 
@@ -8,7 +142,7 @@
 	export default{
 		data(){
 			return{
-
+				
 			};
 		},
 	};

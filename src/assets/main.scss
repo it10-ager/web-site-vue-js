@@ -1,9 +1,155 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500;700&display=swap');
-@import './variables.scss';
+@import "./vars";
+@import './mixins';
+@import './extends';
 
-*{
+*, 
+::after, 
+::before{
 	margin: 0;
 	padding: 0;
 	outline: none;
 	font-family: 'Roboto Slab', serif;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: $main-width;
+	border: 1px solid;
+	padding: 20px;
+
+	&>header{
+		@extend %flexDisplay;
+
+		>div:first-of-type >img{
+			width: 25px;
+			margin-bottom: 10px;
+		}
+
+		>span:first-of-type{
+			font-size: 16px;
+			font-weight: 600;
+			margin-bottom: 15px;
+		}
+
+		>.blue-line{
+			@extend %blueLine;
+		}
+	}
+
+	#first-section{
+		@extend %sections;
+		
+		>.dream-work{
+			width: $main-width;
+			@extend %flexDisplay;
+			margin-bottom: 50px;
+
+			>.google-img {
+				width: $main-width;
+				height: 200px;
+				position: relative;
+				margin-bottom: 30px;
+
+				img{
+					pointer-events: none;
+					height: inherit;
+					width: inherit;
+					position: absolute;
+					object-fit: cover;
+					top: 0;
+					left: 0;
+				}
+			}
+
+			>.google-txt{
+				>p:first-of-type{
+					font-weight: bold;
+					font-size: 40px;
+					color: rgb(59, 59, 59);
+				}
+
+				>p:nth-child(2){
+					margin-top: 25px;
+					text-transform: uppercase;
+					@extend %nthFont;
+				}
+
+				>p:last-child{
+					margin-top: 15px;
+					@extend %nthFont;
+				}
+			}
+
+			>.google-btn >button{
+				@extend %allButtons;
+				width: 158px!important;
+
+				&:hover{
+					background-color: rgb(237, 244, 255);
+					transition: all 400ms ease;
+				}
+			}
+		}
+	}
+
+	#second-section{
+		>p:first-of-type{
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 15px;
+			color: rgb(59, 59, 59);
+		}
+
+		>.blue-line-half{
+			@extend %blueLine;
+			margin-bottom: 30px;
+		}
+
+		>.news-list{
+			width: $main-width;
+			@extend %flexDisplay;
+			margin-bottom: 50px;
+			border-bottom: $border-bottom;
+
+			>.news-img{
+				width: $main-width;
+				height: 100px;
+				position: relative;
+				margin-bottom: 30px;
+
+				img{
+					pointer-events: none;
+					height: inherit;
+					width: inherit;
+					position: absolute;
+					object-fit: cover;
+					top: 0;
+					left: 0;
+				}
+			}
+
+			>.news-txt{
+				>p:first-of-type{
+					font-weight: bold;
+					font-size: 16px;
+					color: rgb(59, 59, 59);
+				}
+
+				>p:last-child{
+					margin-top: 15px;
+					@extend %nthFont;
+				}
+			}
+
+			>.news-btn >button{
+				@extend %allButtons;
+				margin-bottom: 40px;
+				&:hover{
+					background-color: rgb(237, 244, 255);
+					transition: all 400ms ease;
+				}
+			}
+		}
+	}
 }
