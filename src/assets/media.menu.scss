@@ -1,11 +1,27 @@
-@media screen and (min-width: 630px){
-	.container-menu{
-		>div:nth-child(2){
-			padding: 20px 40px!important;
+@media screen and (min-width: 300px) {
+	#app {
+		display: flex;
+		flex-direction: column-reverse;
+		
+		.container-menu {
+			>.search {
+				display: none;
+			}
+		}
+	}
+}
 
-			>.info-new{
-				>.info-img{
-					height: 200px!important;
+@media screen and (min-width: 630px){
+	#app{
+		.container-menu{
+			>div:nth-child(2){
+				margin-top: 20px;
+				padding: 20px 40px!important;
+
+				>.info-new{
+					>.info-img{
+						height: 200px!important;
+					}
 				}
 			}
 		}
@@ -14,15 +30,27 @@
 
 @media screen and (min-width: 1200px) {
 	#app{
-		/* display: flex; */
-		/* 	width: 100%; */
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		
+		.container-menu{	
+			width: 0%;
 
-		/* .container{
-			width: 70%;
-		} */
+			>.search{
+				display: block;
+			}
 
-		.container-menu{		
-			width: 25%;
+			&.position-menu{
+				width: 25%;
+				transition: all 0.6s ease;
+			}
+
+			&.position-change-menu{
+				width: 0%;
+				transition: all 0.6s ease;
+			}
+
 			>div:nth-child(2){
 				padding: 30px 25px!important;
 

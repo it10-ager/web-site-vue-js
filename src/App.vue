@@ -3,7 +3,7 @@
 
 	<div class="container">
 		<div class="menu-icon">
-			<img src="./img/menu icon.png" alt="menu icon">
+			<img class="button-menu" src="./img/menu icon.png" alt="menu-icon" @click="changePosition">
 		</div>
 		<header>
 			<span>СМИ портал</span>
@@ -69,6 +69,34 @@
 			SectionSecond,
 			SectionThird,
 			MenuBlock,
+		},
+
+		data(){
+			return{
+				isPositioned: false,
+			};
+		},
+
+		methods:{
+			changePosition() {
+				var container = document.querySelector(".container");
+				var containerMenu = document.querySelector(".container-menu");
+				this.isPositioned = !this.isPositioned; 
+
+				if (this.isPositioned){
+					container.classList.remove("position-change");
+					containerMenu.classList.remove("position-change-menu");
+					container.classList.add("position");
+					containerMenu.classList.add("position-menu");
+				}
+				else {
+					containerMenu.classList.remove("position-change-menu");
+					container.classList.remove("position");
+					containerMenu.classList.remove("position-menu");
+					container.classList.add("position-change");
+					containerMenu.classList.add("position-change-menu");
+				}
+			},
 		},
 	};
 </script>

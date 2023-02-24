@@ -22,8 +22,8 @@
 			</div>
 
 			<div class="info-new">
-				<div class="info-img">
-					<img ref="" src="../img/kotik.jpg" alt="photo-kotik">
+				<div class="info-img" ref="scale1" v-on:mouseover="scaleSize($refs.scale1)" v-on:mouseout="defaultScale($refs.scale1)">
+					<img src="../img/kotik.jpg" alt="photo-kotik">
 				</div>
 				<div class="info-txt">
 					<p>
@@ -33,8 +33,8 @@
 			</div>
 
 			<div class="info-new" style="border-bottom: none;">
-				<div class="info-img">
-					<img ref="" src="../img/apple.jpg" alt="photo-apple">
+				<div class="info-img" ref="scale2" v-on:mouseover="scaleSize($refs.scale2)" v-on:mouseout="defaultScale($refs.scale2)">
+					<img src="../img/apple.jpg" alt="photo-apple">
 				</div>
 				<div class="info-txt">
 					<p>
@@ -86,7 +86,16 @@
 </template>
 
 <script>
-
+	export default {
+ 		methods: {
+			scaleSize(img) {
+				img.style.transform = "scale(1.02)";
+			},
+			defaultScale(img) {
+				img.style.transform = "scale(1)";
+			},
+		},
+	};
 </script>
 
 <style scoped lang="scss">

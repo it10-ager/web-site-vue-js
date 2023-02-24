@@ -1,3 +1,11 @@
+@media screen and (min-width: 300px){
+	.container{
+		>.menu-icon{
+			display: none;
+		}
+	}
+}
+
 @media screen and (min-width: 630px){
 	.container{
 		padding: 20px 40px!important;
@@ -46,7 +54,7 @@
 		#third-section{
 			>.another-news{
 				>.another-img{
-					height: 200px!important;
+					height: 120px!important;
 				}
 			}
 		}
@@ -135,7 +143,7 @@
 			}
 
 			>.another-img{
-				height: 100px!important;
+				height: 200px!important;
 			}
 		}
 
@@ -175,8 +183,20 @@
 @media screen and (min-width: 1200px){ 
 	.container{
 		padding: 40px 100px!important;
+		width: 100%;
+
+		&.position{
+			width: 75%;
+			transition: width 0.6s ease;
+		}
+		
+		&.position-change{
+			width: 100%;
+			transition: width 0.6s ease;
+		}
 
 		>.menu-icon{
+			display: block;
 			>img{
 				position: relative;
 				top: -20px;
@@ -209,6 +229,14 @@
 			>.news-list{
 				>.news-btn >button{
 					width: 120px;
+				}
+			}
+		}
+
+		#third-section{
+			>.another-news{
+				>.another-img{
+					height: 150px!important;
 				}
 			}
 		}
