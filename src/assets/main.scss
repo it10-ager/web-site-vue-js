@@ -20,11 +20,11 @@
 
 	>.menu-icon{
 		max-width: $main-width;
-		cursor: pointer;
 		
 		>img{
+			cursor: pointer;
 			width: 24px;
-			margin-bottom: 5px;
+			margin-bottom: 10px;
 		}
 	}
 
@@ -57,6 +57,7 @@
 				margin-bottom: 30px;
 
 				img{
+					border-radius: 3px;
 					pointer-events: none;
 					height: inherit;
 					width: inherit;
@@ -87,7 +88,7 @@
 
 				>.google-btn >button{
 					@extend %allButtons;
-					width: 158px!important;
+					width: 158px;
 	
 					&:hover{
 						background-color: rgb(237, 244, 255);
@@ -128,6 +129,7 @@
 				margin-bottom: 30px;
 
 				img{
+					border-radius: 3px;
 					pointer-events: none;
 					height: inherit;
 					width: inherit;
@@ -179,6 +181,7 @@
 				margin-bottom: 20px;
 
 				img{
+					border-radius: 3px;
 					pointer-events: none;
 					height: inherit;
 					width: inherit;
@@ -205,7 +208,7 @@
 
 			>.another-btn >button{
 				@extend %allButtons;
-				margin: 35px 0 20px 0!important;
+				margin: 35px 0 20px 0;
 				&:hover{
 					background-color: rgb(237, 244, 255);
 					transition: all 400ms ease;
@@ -224,7 +227,7 @@
 
 		>.blue-line-half{
 			@extend %blueLine;
-			max-width: 160px!important;
+			max-width: 160px;
 			margin-bottom: 5px;
 		}
 	}
