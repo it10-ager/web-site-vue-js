@@ -217,27 +217,9 @@
 			display: flex;
 			align-items: flex-start;
 			justify-content: flex-start;
-
+			
 			>div{
-				>.footer-txt{
-					max-width: 400px!important;
-					margin-right: 100px;
-
-					>p:last-child{
-						font-size: 14px!important;
-						width: 370px!important;
-					}
-				}
-
-				&:last-of-type{
-					>.footer-txt{
-						max-width: 450px!important;
-	
-						>p:last-of-type{
-							width: 450px!important;
-						}
-					}
-				}
+				margin-right: 150px;
 			}
 		}
 	}
