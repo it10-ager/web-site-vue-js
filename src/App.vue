@@ -1,4 +1,6 @@
 <template>
+	<MenuBlock />
+
 	<div class="container">
 		<div class="menu-icon">
 			<img src="./img/menu icon.png" alt="menu icon">
@@ -59,12 +61,14 @@
 	import SectionFirst from './components/SectionFirst.vue';
 	import SectionSecond from './components/SectionSecond.vue';
 	import SectionThird from './components/SectionThird.vue';
+	import MenuBlock from './components/MenuBlock.vue';
 
 	export default{
 		components: {
 			SectionFirst,
 			SectionSecond,
 			SectionThird,
+			MenuBlock,
 		},
 	};
 </script>

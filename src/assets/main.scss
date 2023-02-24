@@ -3,6 +3,8 @@
 @import './mixins';
 @import './extends';
 @import './media.scss';
+@import './main.menu.scss';
+
 
 *, 
 ::after, 
@@ -17,6 +19,7 @@
 .container{
 	max-width: $main-width;
 	padding: 20px;
+	background-color: #fff;
 
 	>.menu-icon{
 		max-width: $main-width;
@@ -35,6 +38,7 @@
 			font-size: 16px;
 			font-weight: 600;
 			margin-bottom: 15px;
+			color:rgb(59, 59, 59);
 		}
 
 		>.blue-line{
