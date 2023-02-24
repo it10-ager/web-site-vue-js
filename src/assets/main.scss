@@ -57,6 +57,7 @@
 				margin-bottom: 30px;
 
 				img{
+					user-select: none;
 					border-radius: 3px;
 					pointer-events: none;
 					height: inherit;
@@ -127,16 +128,20 @@
 				height: 100px;
 				position: relative;
 				margin-bottom: 30px;
+				overflow: hidden;
+				border-radius: 3px;
 
 				img{
 					border-radius: 3px;
-					pointer-events: none;
+					user-select: none;
 					height: inherit;
 					width: inherit;
 					position: absolute;
 					object-fit: cover;
 					top: 0;
 					left: 0;
+					transition: transform 0.4s ease-out;
+					cursor: pointer;
 				}
 			}
 
@@ -179,8 +184,12 @@
 				height: 80px;
 				position: relative;
 				margin-bottom: 20px;
+				border-radius: 3px;
+				cursor: pointer;
+				transition: box-shadow 0.4s ease-out;
 
 				img{
+					user-select: none;
 					border-radius: 3px;
 					pointer-events: none;
 					height: inherit;
