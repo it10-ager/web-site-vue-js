@@ -53,6 +53,10 @@
 			font-size: 14px;
 			color: rgb(78, 78, 78);
 
+			>p:hover{
+				color: #609cf5;
+			}
+
 			>p{cursor: pointer;}
 
 			>p:first-of-type{
