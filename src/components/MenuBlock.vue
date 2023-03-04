@@ -66,7 +66,7 @@
 					<span>test@itproger.com</span>
 				</div>
 				<div>
-					<img src="../img/call-answer (1).png" alt="photo">
+					<img src="../img/call-answer.png" alt="photo">
 					<span>(000) 000 - 0000</span>
 				</div>
 				<div>
