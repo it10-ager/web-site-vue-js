@@ -12,6 +12,8 @@ lerna-debug.log*
 node_modules
 .DS_Store
 coverage
+dist
+dist-ssr
 *.local
 
 /cypress/videos/
