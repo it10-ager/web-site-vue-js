@@ -3,7 +3,7 @@
 
 	<div class="container">
 		<div class="menu-icon">
-			<img class="button-menu" src="img/menu-icon.png" alt="menu-icon" @click="changePosition">
+			<img class="button-menu" src="./img/menu-icon.png" alt="menu-icon" @click="changePosition">
 		</div>
 		<header>
 			<span>СМИ портал</span>
@@ -30,7 +30,7 @@
 			<!--------------------------------------------1-------------------------------------------->
 			<div>
 				<div class="footer-img">
-					<img src="img/multiple-users-silhouette-icon.png" alt="user">
+					<img src="./img/multiple-users-silhouette-icon.png" alt="user">
 				</div>
 				<div class="footer-txt">
 					<p>Множество клиентов</p>
@@ -43,7 +43,7 @@
 			<!--------------------------------------------2-------------------------------------------->
 			<div>
 				<div class="footer-img">
-					<img src="img/youtube-icon.png" alt="yt">
+					<img src="./img/youtube-icon.png" alt="yt">
 				</div>
 				<div class="footer-txt">
 					<p>Большая аудитория YouTube</p>
