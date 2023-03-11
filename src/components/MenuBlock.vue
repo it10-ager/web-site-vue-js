@@ -23,7 +23,7 @@
 
 			<div class="info-new">
 				<div class="info-img" ref="scale1" v-on:mouseover="scaleSize($refs.scale1)" v-on:mouseout="defaultScale($refs.scale1)">
-					<img src="../img/kotik.jpg" alt="photo-kotik">
+					<img src="../img/Kotik1.jpg" alt="photo-kotik">
 				</div>
 				<div class="info-txt">
 					<p>
@@ -34,7 +34,7 @@
 
 			<div class="info-new" style="border-bottom: none;">
 				<div class="info-img" ref="scale2" v-on:mouseover="scaleSize($refs.scale2)" v-on:mouseout="defaultScale($refs.scale2)">
-					<img src="../img/apple.jpg" alt="photo-apple">
+					<img src="../img/Apple1.jpg" alt="photo-apple">
 				</div>
 				<div class="info-txt">
 					<p>
@@ -62,15 +62,15 @@
 
 			<div class="help-contacts">
 				<div>
-					<img src="../img/message-envelope.png" alt="photo">
+					<img src="../img/message-envelope1.png" alt="photo">
 					<span>test@itproger.com</span>
 				</div>
 				<div>
-					<img src="../img/call-answer.png" alt="photo">
+					<img src="../img/call-answer1.png" alt="photo">
 					<span>(000) 000 - 0000</span>
 				</div>
 				<div>
-					<img src="../img/home.png" alt="photo">
+					<img src="../img/home1.png" alt="photo">
 					<span>USA Washington Seatles Northway 13002</span>
 				</div>
 			</div>

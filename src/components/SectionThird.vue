@@ -3,7 +3,7 @@
 		<!--------------------------------------------1-------------------------------------------->
 		<div class="another-news">
 			<div class="another-img" v-on:mouseover="shadowBox" v-on:mouseout="defaultBlock">
-				<img src="../img/frontend.png" alt="photo-google">
+				<img src="../img/Frontend1.png" alt="photo-google">
 			</div>
 			<div class="another-txt">
 				<p>Front-end</p>
@@ -18,7 +18,7 @@
 		<!--------------------------------------------2-------------------------------------------->
 		<div class="another-news">
 			<div class="another-img" v-on:mouseover="shadowBox" v-on:mouseout="defaultBlock">
-				<img src="../img/swift.jpg" alt="photo-google">
+				<img src="../img/Swift1.jpg" alt="photo-google">
 			</div>
 			<div class="another-txt">
 				<p>Swift</p>
@@ -33,7 +33,7 @@
 		<!--------------------------------------------3-------------------------------------------->
 		<div class="another-news">
 			<div class="another-img" v-on:mouseover="shadowBox" v-on:mouseout="defaultBlock">
-				<img src="../img/V1.jpg" alt="photo-google">
+				<img src="../img/pythonV1.jpg" alt="photo-google">
 			</div>
 			<div class="another-txt">
 				<p>Python</p>
@@ -48,7 +48,7 @@
 		<!--------------------------------------------4-------------------------------------------->
 		<div class="another-news">
 			<div class="another-img" v-on:mouseover="shadowBox" v-on:mouseout="defaultBlock">
-				<img src="../img/angular.png" alt="photo-google">
+				<img src="../img/Angular1.png" alt="photo-google">
 			</div>
 			<div class="another-txt">
 				<p>Angular</p>

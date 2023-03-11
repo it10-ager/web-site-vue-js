@@ -3,7 +3,7 @@
 		<!--------------------------------------------1-------------------------------------------->
 		<div class="news-list">
 			<div class="news-img">
-				<img ref="imgscale1" src="../img/difficult-lang.jpeg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale1)" v-on:mouseout="noscaleImg($refs.imgscale1)">
+				<img ref="imgscale1" src="../img/Difficult-lang1.jpeg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale1)" v-on:mouseout="noscaleImg($refs.imgscale1)">
 			</div>
 			<div class="news-txt">
 				<p>Какие языки программирования ненавидят больше и почему?</p>
@@ -19,7 +19,7 @@
 		<!--------------------------------------------2-------------------------------------------->
 		<div class="news-list">
 			<div class="news-img">
-				<img ref="imgscale2" src="../img/camera.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale2)" v-on:mouseout="noscaleImg($refs.imgscale2)">
+				<img ref="imgscale2" src="../img/Camera1.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale2)" v-on:mouseout="noscaleImg($refs.imgscale2)">
 			</div>
 			<div class="news-txt">
 				<p>Надо ли заклеивать камеру на ноутбуке?</p>
@@ -35,7 +35,7 @@
 		<!--------------------------------------------3-------------------------------------------->
 		<div class="news-list">
 			<div class="news-img">
-				<img ref="imgscale3" src="../img/future.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale3)" v-on:mouseout="noscaleImg($refs.imgscale3)">
+				<img ref="imgscale3" src="../img/Future1.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale3)" v-on:mouseout="noscaleImg($refs.imgscale3)">
 			</div>
 			<div class="news-txt">
 				<p>5 будущих профессий для IT специалистов</p>
@@ -52,7 +52,7 @@
 		<!--------------------------------------------4-------------------------------------------->
 		<div class="news-list">
 			<div class="news-img">
-				<img ref="imgscale4" src="../img/python.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale4)" v-on:mouseout="noscaleImg($refs.imgscale4)">
+				<img ref="imgscale4" src="../img/Python1.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale4)" v-on:mouseout="noscaleImg($refs.imgscale4)">
 			</div>
 			<div class="news-txt">
 				<p>ИИ на Python для распознавания голоса</p>
@@ -69,7 +69,7 @@
 		<!--------------------------------------------5-------------------------------------------->
 		<div class="news-list">
 			<div class="news-img">
-				<img ref="imgscale5" src="../img/git.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale5)" v-on:mouseout="noscaleImg($refs.imgscale5)">
+				<img ref="imgscale5" src="../img/Git1.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale5)" v-on:mouseout="noscaleImg($refs.imgscale5)">
 			</div>
 			<div class="news-txt">
 				<p>Изучение Git на реальных примерах</p>
@@ -86,7 +86,7 @@
 		<!--------------------------------------------6-------------------------------------------->
 		<div class="news-list">
 			<div class="news-img">
-				<img ref="imgscale6" src="../img/javascript.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale6)" v-on:mouseout="noscaleImg($refs.imgscale6)">
+				<img ref="imgscale6" src="../img/Javascript1.jpg" alt="photo-google" v-on:mouseover="scaleImg($refs.imgscale6)" v-on:mouseout="noscaleImg($refs.imgscale6)">
 			</div>
 			<div class="news-txt">
 				<p>Почему JavaScript очень крутой язык программирования?</p>

@@ -2,7 +2,7 @@
 	<section id="first-section">
 		<div class="dream-work">
 			<div class="google-img">
-				<img src="../img/Google.png" alt="photo-google">
+				<img src="../img/google1.png" alt="photo-google">
 			</div>
 			<div class="google-txt">
 				<p>Работа мечты компания Google</p>
